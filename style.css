@@ -1,0 +1,55 @@
+.navbar {
+    background-color:rgb(187, 42, 42);
+}
+
+body {
+  background-image: url('Assets/geometric-leaves\ 2/geometric-leaves.png');
+}
+
+h1 {
+    color: rgb(61, 58, 58);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.boxed {
+    background-color: rgb(189, 66, 66);
+    padding: 10px 20px 10px 20px;
+  }
+
+  h5 {
+      text-align: center;
+      color:rgb(189, 66, 66);
+  }
+
+  .form-group  {
+      padding: 50px;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+
+  .boxes {
+    background-color: white;
+    border: rgb(189, 66, 66);
+}
+
+.btn{
+      margin: 50px;
+
+  }
+
+  #attribute {
+      color: black;
+      text-align: center;
+      font-size: 10px;
+  }
+#video {
+      margin: 10px 10px 30px 50px;
+  }
+
+  .icon {
+      text-align: center;
+  }
+
