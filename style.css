@@ -46,10 +46,16 @@ h1 {
       font-size: 10px;
   }
 #video {
+      float: left;
       margin: 10px 10px 30px 50px;
+
   }
 
   .icon {
-      text-align: center;
+      
+  }
+
+  .card-text {
+      color: black;
   }
 
