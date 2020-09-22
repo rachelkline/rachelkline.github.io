@@ -66,5 +66,39 @@ $("#GH").click(function(){
     location.href = "https://github.com/rachelkline";
 });
 
+$("#WDDep").click(function(){
+    location.href = "https://rachelkline.github.io/WorkDayScheduler/";
+});
 
+$("#WDGit").click(function(){
+    location.href = "https://github.com/rachelkline/WorkDayScheduler";
+});
+
+$("#WTSDep").click(function(){
+    location.href = "https://rachelkline.github.io/WhatTheStock/";
+});
+
+$("#WTSGit").click(function(){
+    location.href = "https://github.com/rachelkline/WhatTheStock";
+});
+
+$("#WTSDep").click(function(){
+    location.href = "https://rachelkline.github.io/WhatTheStock/";
+});
+
+$("#WTSGit").click(function(){
+    location.href = "https://github.com/rachelkline/WhatTheStock";
+});
+
+$("#WDDayDep").click(function(){
+    location.href = "https://rachelkline.github.io/WeatherDashboard/";
+});
+
+$("#WDDayGit").click(function(){
+    location.href = "https://github.com/rachelkline/WeatherDashboard";
+});
+
+$("#sendBtn").click(function(){
+    $("#inputUser").val("");
+});
 
