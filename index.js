@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 var texts = new Array();
+texts.push("...")
 texts.push("A Front-End Software Developer")
 texts.push("A Singer");
 texts.push("A Songwriter");
@@ -26,7 +27,7 @@ changeText();
 
 
 hideShow();
-var start = 4;
+var start = 5;
 $(".hideShowBtn").hide();
 // $("#navBar").hide();
 function hideShow(){
@@ -34,7 +35,7 @@ function hideShow(){
         start--;
         $('.Timer').text("");
         if(start === 0){
-            $(".hideShowBtn").show(1000);
+            $(".hideShowBtn").fadeIn(1000);
             // $(".navbar").show(1000);
             clearInterval(myTimer)
             
