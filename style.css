@@ -14,6 +14,10 @@ html,body
   background-position: center;
   background-size: cover;
 }
+
+/* #resumeBody, #portBody{
+  background-image: url('Assets/congruent_outline/congruent_outline.png')
+} */
 .navbar-item {
     float: right;
 }
@@ -46,8 +50,9 @@ html,body
 span{
   color: white;
 }
+
 body{
-  background-image: url('Assets/bananas/bananas.png');
+  background-image: url('Assets/intersection/intersection.png');
   background-repeat: repeat;
 }
 
@@ -64,9 +69,7 @@ body{
   /* width: 50%; */
   /* vertical-align: bottom; */
 }
-.card-img-top{
- margin-top: 5px;
-}
+
 .footerM {
 text-align: center;
 background-color: white;
@@ -93,6 +96,9 @@ padding: 1rem;
 
 .portBtn {
   width: 100%;  
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .img-responsive {
@@ -102,8 +108,19 @@ padding: 1rem;
 .boxed {
     
     background-color:white;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
   }
+.boxText{
+  margin-top:25px;
+  font-size: 120%;
+}
+.box2Text{
+  margin-top: 5px;
+  font-size: 120%;
+}
+
 #par1 {
   height: 65%;
 }
@@ -120,13 +137,17 @@ padding: 1rem;
   width: 90%;
 }
 
+.card-img-top{
+  height:100%;
+  width: 100%;
+}
 
 
 .card {
   height: 100%;
   margin: 0 auto;
   float: none;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
  h5 {
@@ -191,9 +212,6 @@ h6 {
   
 }
 
-.boxText {
-  font-size: 120%;
-}
 
 .card-text {
       color: black;
