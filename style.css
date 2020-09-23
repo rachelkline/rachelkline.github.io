@@ -15,12 +15,6 @@ html,body
   background-size: cover;
 }
 
-/* #resumeBody, #portBody{
-  background-image: url('Assets/congruent_outline/congruent_outline.png')
-} */
-/* .navbar-item {
-    float: right;
-} */
 #navHome, #navAbout, #navPort, #navConn{
   color:black;
 }
@@ -109,6 +103,11 @@ padding: 1rem;
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.topBox {
+  background-color:white;
+  padding: 15px;
+}
 .boxed {
     
     background-color:white;
@@ -116,6 +115,8 @@ padding: 1rem;
     padding-right: 15px;
     padding-top: 15px;
   }
+
+
 .boxText{
   margin-top:25px;
   font-size: 120%;
@@ -131,6 +132,7 @@ padding: 1rem;
 #paragraph2 {
   margin-top: 10px;
   height: 35%;
+  padding-bottom: 15px;
 }
 
 .card-image {
