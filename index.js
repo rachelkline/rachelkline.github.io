@@ -45,6 +45,11 @@ function hideShow(){
 }
 
 //BUTTONS
+$(".navbar-burger").click(function(){
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
+});
+
 $("#About").click(function(){
     location.href = "about.html";
 });
@@ -102,4 +107,8 @@ $("#WDDayGit").click(function(){
 $("#sendBtn").click(function(){
     $("#inputUser").val("");
 });
+
+$("#emailLink").click(function(){
+    window.open('mailto: rachel_kline@icloud.com');
+})
 

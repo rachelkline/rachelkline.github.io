@@ -18,9 +18,13 @@ html,body
 /* #resumeBody, #portBody{
   background-image: url('Assets/congruent_outline/congruent_outline.png')
 } */
-.navbar-item {
+/* .navbar-item {
     float: right;
+} */
+#navHome, #navAbout, #navPort, #navConn{
+  color:black;
 }
+
 
 #bananaTag {
   width: 100%;
