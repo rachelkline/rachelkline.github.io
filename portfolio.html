@@ -61,16 +61,15 @@
     <br>
     <!-- Cards for Content-->
     <section class="columns">
-      <section class="column"></section>
-      <section class="column is-four-fifths">
+      <section class="column is-half">
         <section class="card portCard">
           <br>
           <span id="bananaTag" class="tag is-primary is-light">
-            <h1 class="title is-1">PROJECT 1: What The Stock?</h1>
+            <h1 class="title">PROJECT 1: What The Stock?</h1>
           </span>
           <div class="field is-grouped">
-            <button id="WTSDep" class="button is-primary is-rounded portBtn">Click Here For: Deployed Site</button>
-            <button id="WTSGit" class="button is-link is-rounded portBtn">Click Here For: Repository</button>
+            <button id="WTSDep" class="button is-primary is-rounded portBtn">Deployed Site</button>
+            <button id="WTSGit" class="button is-link is-rounded portBtn">Repository</button>
           </div>
           <img src="Assets/WTS.png" id="WTSimg" class="card-img" alt="...">
           <section class="card-body">
@@ -85,11 +84,45 @@
             <br>
             <br>
             <ul>
-              <li>-learning how to work with API's and manipulate them by stacking, for example, to get the desired output.</li>
-              <li>-learning to work in a team and reviewing all of the material we have learned in class, especially local storage manipulation.</li>
-              <li>-learning how to work with APis and create links from the APIs that the user can click to another website.</li>
-              <li>-learning how to use gitHub and its various components to manage a project, and learning when to ask for help from external sources.</li>
+              <li>-Learning how to work with API's and manipulate them by stacking</li>
+              <li>-Learning to work in a team</li>
+              <li>-Learning how to create links from APIs that direct the user to another website.</li>
+              <li>-Learning how to use gitHub for collaboration</li>
                 
+              </ul>
+              </h3>
+            <p class="card-text"></p>
+          </section>
+        </section>
+      </section>
+      <section class="column is-half">
+        <section class="card portCard">
+          <br>
+          <span id="bananaTag" class="tag is-primary is-light">
+            <h1 class="title">PROJECT 2: Simple Resume</h1>
+          </span>
+          <div class="field is-grouped">
+            <button id="ResumeDep" class="button is-primary is-rounded portBtn">Deployed Site</button>
+            <button id="ResumeRep" class="button is-link is-rounded portBtn">Repository</button>
+          </div>
+          <img src="Assets/simpRes.png" id="SimpImg" class="card-img" alt="...">
+          <section class="card-body">
+            
+            <h3 class="card-title" id="StockBody">'Simple Resume' is our second collaborative coding project.  The criteria we were tasked to meet in this assignment was to create a functional application (utulizing one new technology that we haven't discussed in class yet) and utilize MySQL database in some way. We were also required to deploy our application to Heroku.
+              <br>
+              <br>
+            Our group decided to create an application that would generate a simple, clean resume. We wanted it to be user-friendly, so that someone could easily enter in their information(such as job history, relevant skills, education, and professional summary) and be returned a sleek resume that is able to be downloaded as a PDF file. We accomplished this by associating the unique user ID to two different tables. Once the user is 'logged in', only their unique ID is able to be used to access information in the database.
+            <br>
+            <br>
+            The technologies we used to create this app are:
+            <br>
+            <br>
+            <ul>
+              <li>-Handlebars (to create the HTML structure and resume template</li>
+              <li>-Passport and Bcrypt for password authentication</li>
+              <li>-MySQL Database to store user information in 3 different tables</li>
+              <li>-Sequelize ORM</li>
+              <li>PDF Download</li>
               </ul>
               </h3>
             <p class="card-text"></p>
@@ -98,24 +131,78 @@
       </section>
       <section class="column"></section>
     </section>
-
+<!-- Second Row -->
     <section class="columns">
 
-      <section class="column">
+      <section class="column is-half">
         <section class="card portCard">
           <br>
           <span id="bananaTag" class="tag is-primary is-light">
             <h1 class="title">HOMEWORK ASSIGNMENT:</h1>
           </span>
           <div class="field is-grouped">
-            <button id="WDDep" class="button is-primary is-rounded portBtn">Click Here For: Deployed Site</button>
-            <button id="WDGit" class="button is-link is-rounded portBtn">Click Here For: Repository</button>
+            <button id="BurgDep" class="button is-primary is-rounded portBtn">Deployed Site</button>
+            <button id="BurgRep" class="button is-link is-rounded portBtn">Repository</button>
+          </div>
+          <img src="Assets/burgImg.png" class="card-img" alt="...">
+          <section class="card-body" id="SchedBddy">
+            <h3 class="card-title">In this assignment, we were tasked with creating a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. This application lets users input the names of burgers they'd like to eat. When the user submits a burger's name, the burger is displayed on the left side of the page waiting to be devoured.
+              <br>
+              <br>
+            The application was created using Handlebars partials. This was my first time using Handlebars and I really gained a liking for it! Each burger has a Devour button that when clicked, will move the burger to the right side of the page. Every burger is stored in a database, whether devoured or not. 
+            <br>
+            <br>
+            We were also challenged to add a DELETE button and make it functional (able to be deleted from the database) as a bonus.</h3>
+            <p class="card-text"></p>
+          </section>
+        </section>
+      </section>
+
+
+      <section class="column  is-half">
+        <section class="card portCard">
+          <br>
+          <span id="bananaTag" class="tag is-primary is-light">
+            <h1 class="title">HOMEWORK ASSIGNMENT:</h1>
+          </span>
+          <div class="field is-grouped">
+            <button id="ProfileDep" class="button is-primary is-rounded portBtn">Tutorial</button>
+            <button id="ProfileRep" class="button is-link is-rounded portBtn">Repository</button>
+          </div>
+          <img src="Assets/TEAMPROFILE.png" class="card-img" alt="...">
+          <section class="card-body" id="weatherDatabody">
+            <br>
+            <br>
+            <h3 class="card-title">In this assignment, we were tasked with building a software engineering team generator comand line application using the Inquirer package. The user can input any number of team members, and they may be a mix of engineers and interns. The assignment must also pass all unit tests. When the user has completed building the team, the application will then create an HTML file that displays a nicely formatted team roster based on the user-provided information.
+
+            The employees are generated using a standard "Employee" class, then based on the user-input, they are then classified as either a Manager, Engineer, or Intern. Depending on the job title chosen, different questions will be prompted and appended to the HTML file.
+              
+            We were given free-reign for styling. In my example, I used my favorite video game characters (from the Legend of Zelda) and decided to build my color-schemes and fonts around that game!</h3>
+            <p class="card-text"></p>
+          </section>
+        </section>
+      </section>
+
+    </section>
+    <!-- Third Row -->
+    <section class="columns">
+
+      <section class="column is-half">
+        <section class="card portCard">
+          <br>
+          <span id="bananaTag" class="tag is-primary is-light">
+            <h1 class="title">HOMEWORK ASSIGNMENT:</h1>
+          </span>
+          <div class="field is-grouped">
+            <button id="WDDep" class="button is-primary is-rounded portBtn">Deployed Site</button>
+            <button id="WDGit" class="button is-link is-rounded portBtn">Repository</button>
           </div>
           <img src="Assets/img.png" class="card-img" alt="...">
           <section class="card-body" id="SchedBddy">
             <h3 class="card-title">In this project, we were tasked with creating a functional work day scheduler
               (between the hours of 9AM and 5PM) that would change colors depending on the time of day.
-
+              <br>
+              <br>
               We also had to create text blocks within the calendar that would be functional to write messages.</h3>
             <p class="card-text"></p>
           </section>
@@ -123,15 +210,15 @@
       </section>
 
 
-      <section class="column">
+      <section class="column  is-half">
         <section class="card portCard">
           <br>
           <span id="bananaTag" class="tag is-primary is-light">
             <h1 class="title">HOMEWORK ASSIGNMENT:</h1>
           </span>
           <div class="field is-grouped">
-            <button id="WDDayDep" class="button is-primary is-rounded portBtn">Click Here For: Deployed Site</button>
-            <button id="WDDayGit" class="button is-link is-rounded portBtn">Click Here For: Repository</button>
+            <button id="WDDayDep" class="button is-primary is-rounded portBtn">Deployed Site</button>
+            <button id="WDDayGit" class="button is-link is-rounded portBtn">Repository</button>
           </div>
           <img src="Assets/WD.png" class="card-img" alt="...">
           <section class="card-body" id="weatherDatabody">

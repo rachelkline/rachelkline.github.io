@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+$('.parallax').parallax();
+
 var texts = new Array();
 texts.push("...")
 texts.push("A Front-End Software Developer")
@@ -43,6 +45,8 @@ function hideShow(){
     },
     1000);
 }
+
+
 
 //BUTTONS
 $(".navbar-burger").click(function(){
@@ -110,5 +114,28 @@ $("#sendBtn").click(function(){
 
 $("#emailLink").click(function(){
     window.open('mailto: rachel_kline@icloud.com');
-})
+});
 
+$("#ResumeDep").click(function() {
+    location.href = "https://group1-simple-resume.herokuapp.com/";
+});
+
+$("#ResumeRep").click(function() {
+    location.href = "https://github.com/rachelkline/SimpleResume"
+});
+
+$("#BurgDep").click(function() {
+    location.href = "https://thawing-earth-42129.herokuapp.com/"
+});
+
+$("#BurgRep").click(function() {
+    location.href = "https://github.com/rachelkline/EatDaBurger"
+});
+
+$("#ProfileRep").click(function() {
+    location.href = "https://github.com/rachelkline/TeamProfileGenerator"
+});
+
+$("#ProfileDep").click(function() {
+    location.href = "https://drive.google.com/file/d/1QzEQiVjsyi7FE2DtpX9P8EV5hYKMAZW1/view"
+});
