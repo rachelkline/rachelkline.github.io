@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-$('.parallax').parallax();
 
 var texts = new Array();
 texts.push("...")
