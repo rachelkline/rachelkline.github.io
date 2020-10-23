@@ -4,7 +4,7 @@ $('.parallax').parallax();
 
 var texts = new Array();
 texts.push("...")
-texts.push("A Front-End Software Developer")
+texts.push("A Full-Stack Software Developer")
 texts.push("A Singer");
 texts.push("A Songwriter");
 texts.push("An Artist");
