@@ -83,12 +83,44 @@ $("#WDGit").click(function(){
     location.href = "https://github.com/rachelkline/WorkDayScheduler";
 });
 
+$("#TBGit").click(function(){
+    location.href = "https://github.com/rachelkline/TravelBuddy";
+});
+
+$("#TBDep").click(function(){
+    location.href = "https://travel-buddy3.herokuapp.com/";
+});
+
 $("#WTSDep").click(function(){
     location.href = "https://rachelkline.github.io/WhatTheStock/";
 });
 
 $("#WTSGit").click(function(){
-    location.href = "https://github.com/rachelkline/WhatTheStock";
+    location.href = "https://github.com/rachelkline/GoogleBooks";
+});
+
+$("#GBooksDep").click(function(){
+    location.href = "https://rk-googlebooks.herokuapp.com/";
+});
+
+$("#GBooksGit").click(function(){
+    location.href = "https://github.com/rachelkline/GoogleBooks";
+});
+
+$("#DirectDep").click(function(){
+    location.href = "https://rk-employee-directory.herokuapp.com/";
+});
+
+$("#DirectGit").click(function(){
+    location.href = "https://github.com/rachelkline/Employee-Directory";
+});
+
+$("#WorkoutDep").click(function(){
+    location.href = "https://glacial-falls-07220.herokuapp.com/";
+});
+
+$("#WorkoutGit").click(function(){
+    location.href = "https://github.com/rachelkline/workoutTracker";
 });
 
 $("#WTSDep").click(function(){
