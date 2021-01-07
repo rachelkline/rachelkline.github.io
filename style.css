@@ -173,9 +173,16 @@ padding: 1rem;
   float: none;
 }
 
+.playThru {
+  margin-top: 10px;
+}
  h5 {
      
       color: white;
+  }
+
+  .bottomCard {
+    width: 100%;
   }
 
  #pic {
