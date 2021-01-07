@@ -7,9 +7,14 @@ html,body
     overflow-x: hidden; 
 }
 
-/* .parallax-container {
-  height: 100px;
-} */
+.header {
+  font-size: 175%;
+}
+
+.header2 {
+  font-size: 160%;
+}
+
 
 #mainBody{
   background-image: url('Assets/backgrounds/background-image.PNG');
@@ -25,7 +30,7 @@ html,body
 
 
 #bananaTag {
-  width: 100%;
+width: 100%;
 }
 
 #inputData{
@@ -91,6 +96,10 @@ padding: 1rem;
   font-family: 'Bebas Neue', cursive;
 }
 
+.portCard {
+  text-align: center;
+  width: 80%;
+}
 
 #contact {
   text-align: center;
