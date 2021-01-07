@@ -22,7 +22,7 @@ function changeText(){
    }
 }
 
-var interval = setInterval(changeText, 1000);
+var interval = setInterval(changeText, 800);
 changeText();
 });
 
@@ -30,6 +30,7 @@ changeText();
 hideShow();
 var start = 5;
 $(".hideShowBtn").hide();
+$(".hideConnect").hide();
 // $("#navBar").hide();
 function hideShow(){
     var myTimer = setInterval(function(){
@@ -63,7 +64,7 @@ $("#Resume").click(function(){
     location.href = "resume.html";
 });
 $("#Connect").click(function(){
-    location.href = "contact.html";
+    $(".hideConnect").fadeIn(1000);
 });
 $("#IG").click(function(){
     location.href = "https://www.instagram.com/overlordrach/";
